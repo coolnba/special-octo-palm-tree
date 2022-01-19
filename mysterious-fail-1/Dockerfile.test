@@ -1,5 +1,5 @@
 FROM reversing-figlet
-
+ENV PATH="$PATH:/home/jenkins"
 RUN pip install pytest
 
 CMD ["pytest"]
